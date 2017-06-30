@@ -1,0 +1,9 @@
+<h2>Club Members</h2>
+
+<% Reader.all.each do |reader| %>
+  <%= reader.name%>
+  <%= reader.gender%>
+  <%= reader.age%>
+  <%= reader.location%>
+  <br>
+  <% end  %>
